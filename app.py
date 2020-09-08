@@ -196,10 +196,10 @@ def load_data():
     """
         
     # Load datasets
-    src1 = '/Users/kevincory/Documents/Side_Projects/NBA/data/data80.csv'
-    src2 = '/Users/kevincory/Documents/Side_Projects/NBA/data/nba_shotchartdetail_2018-19.csv'
-    src_court = '/Users/kevincory/Documents/Side_Projects/NBA/assets/nba_court.jpg'
-    src_kobe = '/Users/kevincory/Documents/Side_Projects/NBA/assets/kobe-thumb.jpg'
+    src1 = 'data/data80.csv'
+    src2 = 'data/nba_shotchartdetail_2018-19.csv'
+    src_court = 'assets/nba_court.jpg'
+    src_kobe = 'assets/kobe-thumb.jpg'
     df = pd.read_csv(src1)
     df2 = pd.read_csv(src2)
     
